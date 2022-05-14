@@ -1,0 +1,45 @@
+{
+   "rules": {
+      "preset-ja-technical-writing": {
+         "no-mix-dearu-desumasu": {
+            "preferInHeader": "",
+            "preferInBody": "である",
+            "preferInList": "である",
+            "strict": true
+         },
+         "ja-no-mixed-period": {
+            "periodMark": ".",
+            "allowPeriodMarks": [
+               ":"
+            ]
+         },
+         "no-doubled-joshi": {
+            "strict": false,
+            "allow": [
+               "か"
+            ]
+         }
+      },
+      "preset-ja-spacing": {
+         "ja-space-around-code": {
+            "before": true,
+            "after": true
+         }
+      },
+      "prh": {
+         "rulePaths": [
+            "rules.yml"
+         ]
+      }
+   },
+   "filters": {
+      "comments": true,
+      "allowlist": {
+         "allow": [
+            "/\\$[\\s\\S]*?\\$/m",
+            "/\\$\\$[\\s\\S]*?\\$\\$/m",
+            "/<!-- begin ignore -->[\\s\\S]*?<!-- end ignore -->/m"
+         ]
+      }
+   }
+}

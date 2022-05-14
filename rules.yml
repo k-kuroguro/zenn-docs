@@ -1,0 +1,19 @@
+version: 1
+
+rules:
+  - expected: Zenn
+    pattern:
+      - zenn
+  - expected: Qiita
+    pattern:
+      - qiita
+  - expected: Markdown
+    pattern:
+      - markdown
+  - expected: VSCode
+    pattern:
+      - vscode
+      - VSCOde
+  - expected: HTML
+    pattern:
+      - html

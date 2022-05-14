@@ -8,10 +8,18 @@
    "license": "MIT",
    "homepage": "https://github.com/k-kuroguro/zenn-docs#readme",
    "dependencies": {
+      "textlint": "^12.1.1",
+      "textlint-filter-rule-allowlist": "^4.0.0",
+      "textlint-filter-rule-comments": "^1.2.2",
+      "textlint-rule-preset-ja-spacing": "^2.2.0",
+      "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+      "textlint-rule-prh": "^5.3.0",
       "zenn-cli": "^0.1.110"
    },
    "scripts": {
       "preview": "npx zenn preview",
-      "new:article": "npx zenn new:article"
+      "new:article": "npx zenn new:article",
+      "textlint": "npx textlint articles/**",
+      "textlint:fix": "npx textlint articles/** --fix"
    }
 }
