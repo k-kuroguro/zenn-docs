@@ -1,3 +1,5 @@
-# Zenn CLI
+# Zenn Docs
 
-* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
+## 概要
+
+Zennに投稿した記事のアーカイブ.
