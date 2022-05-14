@@ -9,5 +9,9 @@
    "homepage": "https://github.com/k-kuroguro/zenn-docs#readme",
    "dependencies": {
       "zenn-cli": "^0.1.110"
+   },
+   "scripts": {
+      "preview": "npx zenn preview",
+      "new:article": "npx zenn new:article"
    }
 }
