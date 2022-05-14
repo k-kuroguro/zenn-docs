@@ -1,23 +1,13 @@
 {
-  "name": "zenn-docs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/k-kuroguro/zenn-docs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/k-kuroguro/zenn-docs/issues"
-  },
-  "homepage": "https://github.com/k-kuroguro/zenn-docs#readme",
-  "dependencies": {
-    "zenn-cli": "^0.1.96"
-  }
+   "name": "zenn-docs",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/k-kuroguro/zenn-docs.git"
+   },
+   "author": "Riku Kanayama (k_kuroguro)",
+   "license": "MIT",
+   "homepage": "https://github.com/k-kuroguro/zenn-docs#readme",
+   "dependencies": {
+      "zenn-cli": "^0.1.96"
+   }
 }
