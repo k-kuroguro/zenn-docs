@@ -8,6 +8,6 @@
    "license": "MIT",
    "homepage": "https://github.com/k-kuroguro/zenn-docs#readme",
    "dependencies": {
-      "zenn-cli": "^0.1.96"
+      "zenn-cli": "^0.1.110"
    }
 }
