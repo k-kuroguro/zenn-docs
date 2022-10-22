@@ -43,7 +43,7 @@ function serialize(Node node, BitArray bits): BitArray
    else
       bits.push(0)
    end if
-   Concatenate node.data to the end of bits
+   Concatenate node.data to the end of bits.
    return bits
 end function
 ```
@@ -72,8 +72,8 @@ d -> e -> b -> f -> g -> c -> a
 function deserialize(BitArray bits): Node
    stack <- empty stack
    for i = 0, 9, ..., bits_length - 1 do
-      data <- bits[i+1..i+8]
       if bits[i] = 1 then
+         data <- bits[i+1..i+8]
          node <- Node { left: null, right: null, data }
       else
          if stack_length = 1 then
@@ -81,6 +81,7 @@ function deserialize(BitArray bits): Node
          end if
          left <- stack.pop()
          right <- stack.pop()
+         data <- bits[i+1..i+8]
          node <- Node { left, right, data }
       end if
       stack.push(node)
